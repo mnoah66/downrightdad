@@ -1,0 +1,20 @@
+.blog-cover.cover {
+    filter:grayscale(78%);
+}
+
+.post-cover.cover {
+	filter:grayscale(78%);
+}
+
+.martin {
+	color: red;
+}
+
+.menu-button, .home-button {
+	background-color: black !important;
+	border-color: black !important;
+}
+
+.article-icon {
+	text-align: center;
+}
