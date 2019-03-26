@@ -144,7 +144,27 @@
     <script type="text/javascript"  src="{{ js }}"></script>
     {% endfor %}
   {% endif %}
-  {% include 'partials/analytics.js' %}
+  <script>
+    
+    var host = window.location.hostname;
+    console.log(host);
+    if((host != "127.0.0.1") && (host != "localhost"))
+    {
+        console.log("host does not equal localhost")
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.src = "https://www.googletagmanager.com/gtag/js?id=UA-118771828-3";
+        script.type = 'text/javascript';
+        script.async = true;
+        head.appendChild(script)
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118771828-3');
+    }
+  </script>
   {% include 'partials/disqus.js' %}
 </body>
 </html>
