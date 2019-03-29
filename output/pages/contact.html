@@ -29,6 +29,8 @@
 
     <link href="../extra/custom.css" type="text/css" rel="stylesheet" />
 
+  <link href="/extra/custom.css" type="text/css" rel="stylesheet" />
+
   <!-- Custom fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
@@ -115,95 +117,51 @@
       <div class="inner">
           <section class="post-content">
               <p>If you'd like to get in touch with me, check me out on <a href="https://twitter.com/MixMasterMartin">Twitter</a> or shoot me a message:</p>
-<form id="myForm" onsubmit="myFunc(); return false;">
-    <div class="form-group">
-        <label for="formGroupExampleInput">Name</label>
-        <input required type="text" class="form-control" id="fromName" placeholder="Enter name" name="name">
-    </div>
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="fromEmail" aria-describedby="emailHelp" placeholder="Enter email" name="emailAddress" required>
-        <small id="emailHelp" class="form-text text-muted">Your email is safe with me!</small>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea required class="form-control" id="fromMessage" rows="3" name="message"></textarea>
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" value="https://martindnoah.com/index.html" />
-    </div>
-    <div class="g-recaptcha form-group" data-sitekey="6LeYF3EUAAAAAObkuXXTj4BpF2xpIsIt-CZTWMqo"></div>
-    <div class="form-group">
-        <button class="btn btn-primary btn-lg" type="submit">Send</button>
-    </div>
-</form>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
-<!-- Modal -->
+input[type=text],input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display:hidden !important">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Thank you</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        I'll reach out to you shortly!
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+
+<div class="container">
+  <form action="#">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
 </div>
-
-<script type="text/javascript">
-  $('#exampleModal').modal('hide');
-</script>
-
-<script type="text/javascript">
-function myFunc() {
-    if (grecaptcha.getResponse() === '') {                            
-      alert('Please check the recaptcha');
-      return;
-    }
-    //e.preventDefault();
-    $.ajax({
-        url: "https://purring-dodo.prod.with-datafire.io/contact",
-        type: "post",
-        data: $("#myForm").serialize(),
-    success: function() {
-        $("#myForm :input").val("");
-        $("#exampleModal").modal("show");
-    //whatever you wanna do after the form is successfully submitted
-  }
-});
-};
-</script>
-
-<!-- attr to SO uer ryanlb: https://stackoverflow.com/questions/31017261/require-user-to-click-googles-new-recaptcha-before-form-submission -->
-
-<!--
-<script type="text/javascript">
-  var form = document.getElementById('myForm');
-  form.addEventListener("click", function(event){
-    if (grecaptcha.getResponse() === '') {                            
-      event.preventDefault();
-      alert('Please check the recaptcha');
-    } else {
-      $.ajax({
-      url: "https://purring-dodo.prod.with-datafire.io/contact",
-      type: "post",
-      data: $("#myForm").serialize(),
-    success: function() {
-      $("#myForm :input").val("");
-    //whatever you wanna do after the form is successfully submitted
-    }
-  }
-, false);
-</script>
--->
           </section>
       </div>
       </article>

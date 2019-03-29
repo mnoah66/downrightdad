@@ -10,12 +10,11 @@ SITESUBTITLE = ''
 PATH = 'content'
 
 
-STATIC_PATHS = ['images', 'extra/custom.css', 'extra/favicon.ico']
+STATIC_PATHS = ['images', 'extra/favicon.ico']
 CSS_OVERRIDE = ['extra/custom.css']
 
 
 EXTRA_PATH_METADATA = {
-    'extra/custom.css': {'path': 'custom.css'},
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},  # and this
     'extra/CNAME': {'path': 'CNAME'},
@@ -64,7 +63,9 @@ SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
           ('flickr','https://www.flickr.com/myprofile/'),
           ('envelope','mailto:my@mail.address'))
 
-GOOGLE_ANALYTICS = 'UA-118771828-3'
+# This is hard coded in the base.html so that I can also
+# exclude hits during development
+#GOOGLE_ANALYTICS = 'UA-118771828-3'
 
 
 AUTHORS_BIO = {

@@ -18,3 +18,12 @@
 .article-icon {
 	text-align: center;
 }
+
+.article-image {
+	display:center !important;
+	margin-left: auto !important;
+	margin-right:auto !important;
+	width:50% !important;
+	border: 0.5px solid white;
+	border-radius: 8px;
+}
