@@ -51,6 +51,8 @@ input[type=submit]:hover {
 </div>
 -->
 
+<div class="container">
+
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
@@ -65,3 +67,4 @@ input[type=submit]:hover {
     <button type="submit">Send</button>
   </p>
 </form>
+</div>
