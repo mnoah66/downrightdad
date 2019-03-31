@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Martin'
 SITENAME = 'Downright Dad'
-SITEURL = ''
+SITEURL = 'https://www.downrightdad.com'
 SITESUBTITLE = ''
 
 PATH = 'content'
@@ -46,7 +46,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 
 JINJA_ENVIRONMENT = {
