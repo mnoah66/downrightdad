@@ -67,7 +67,7 @@ SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
 # exclude hits during development
 #GOOGLE_ANALYTICS = 'UA-118771828-3'
 
-
+'''
 AUTHORS_BIO = {
   "martin": {
     "name": "Martin",
@@ -78,4 +78,5 @@ AUTHORS_BIO = {
     "bio": "Daddy-o writing bloggy-o."
   }
 }
+'''
 
