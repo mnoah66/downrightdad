@@ -80,3 +80,5 @@ AUTHORS_BIO = {
 }
 '''
 
+DISQUS_SITENAME = "downrightdad"
+
