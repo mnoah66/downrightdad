@@ -1,7 +1,12 @@
 title: Contact
 
+<div style="text-align: center;">
+<a href="https://instagram.com/downrightdad" style="text-decoration: none !important;border-bottom:none;" target="_blank"><i class="fab fa-instagram fa-2x" style="text-decoration: none !important" ></i></a>
+<a href="https://twitter.com/downrightdad" style="text-decoration: none !important;border-bottom:none;" target="_blank"><i class="fab fa-twitter fa-2x" style="text-decoration: none !important"></i></a>
+</div>
 
-If you'd like to get in touch with me, check me out on [Twitter](https://twitter.com/MixMasterMartin) or shoot me a message:
+If you'd like to get in touch with me, check me out on [Twitter](https://twitter.com/downrightdad) or [Instagram](https://instagram.com/downrightdad) or shoot me a message:
+
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
