@@ -19,6 +19,6 @@ Hi!  I'm Martin, a father of three (👶 and 🐕🐕 ) and husband to my best f
 Many blogs out there are written by mothers and I thought that maybe there are some dad's out there that would like to follow things from the perspective of other fathers, especially those special fathers with special needs children.
 
 ##Nuts and bolts
-This blog takes great advantage of the Python programming language.  The blog framework is [Pelican](https://github.com/getpelican/pelican), which is a static-site generator.  The source code is available on my [Github](https:/github.com/mnoah66/downrightdad.git) and it is hosted on the amazing [Netlify](https://netlify.com).  I also run [martinnoah.com](https://martinnoah.com), my personal blog for technology things 💻.
+This blog takes great advantage of the Python programming language.  The blog framework is [Pelican](https://github.com/getpelican/pelican), which is a static-site generator.  The source code is available on my [Github](https://github.com/mnoah66/downrightdad.git) and it is hosted on the amazing [Netlify](https://netlify.com).  I also run [martinnoah.com](https://martinnoah.com), my personal blog for technology things 💻.
 
 Enjoy!
