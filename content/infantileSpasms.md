@@ -39,4 +39,19 @@ I'm on the verge of tears as I write this.  After three days of no spasms (at le
 
 It's alsmot as if we're back to square one.  But at least this time around, we have direction and knowledge.  We continue to be optimisitc that our little angel will recover and grace us again with her beautiful smile and personality!
 
-###To be continued...
+## Day 7 - 20
+
+Aside from the setback on day 6, it was relatively smooth sailing for Finley.  On day 15 we began weaning down the ACTH dosage, and after a few days Finley blessed us with her smile and giggles again!  During the treatment and weaning, Finley would do some grunting and flexing of her right arm, bringing her right forearm up to her mouth and grunting as if she was going number 2.  As the days went on, she slowed down with the grunting and such, but it was becoming difficult again to rouse a smile out of her.
+
+## Day 29
+
+Today we gave Finley her very last dose of ACTH, 0.04ml.  What a relief!  After 30 days of injecting a needle into our baby, it became routine and the trauma (for us!) wore off, but it was still a joy knowing we wouldn't have to stick her chunky little thighs again.  Later that day, we saw the neurologist for a follow-up appointment. A week or two prior, Finley had a 40 minute EEG.  There was good news and bad; the hypsarrythmic behavior all but resolved, but there was still "slowing" and "focal irritability" of her left temporal lobe.  After numerous questions, we were on our way home with another EEG order, and an MRI.
+
+## Days 30+ish
+
+Well, the "firsts" continue!  Finley had her first MRI under general anesthesia and the next day was hooked up to an EEG that we could thankfully bring home with us.  A few days later, we received the good news: a normal EEG!  😁
+
+The MRI showed a micro-bleed which occurred during pregnancy and was the source of the focal irritability from the previous EEG.  The doctor is still looking into that, as it is depositing iron in that section of her brain. But we have a follow-up soon to discuss that more in-depth and we can begin talking about taking her off her seizure medication (Topamax)
+
+<img src="/images/homeEEG.png" class="article-image" alt="Finley hooked up to the home EEG">
+

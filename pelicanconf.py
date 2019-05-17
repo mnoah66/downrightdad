@@ -49,7 +49,7 @@ SOCIAL = (('twitter', 'https://twitter.com/myprofile'),
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 
 JINJA_ENVIRONMENT = {
