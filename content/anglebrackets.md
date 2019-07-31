@@ -17,6 +17,6 @@ Amazingly, these two representations have had a profound impact on my life in ju
 
 To that end and in honor of our daughter and the amazing Down syndrome community, my wife and I got matching “Lucky Few” tattoos.  The permanency now is a bit scary and I wonder when our curious little one will ask if the arrows mean anything?  How will I respond?  That it’s just an interesting logo I came across?  Or that it represents her Down Syndrome?  Will she even be aware of her own diagnosis when she grows older? Ah, let’s save that for a different post 😉
 
-<img style="max-width: 100%; height: 	auto;" src='/images/tatoo.jpg')>
+<img style="max-width: 100%; height: 	auto;" src='/images/tattoo.jpg')>
 
 
